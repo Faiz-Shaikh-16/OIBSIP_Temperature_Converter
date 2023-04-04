@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f77c95ac9f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form name="form1" id="tempcal" autocomplete="off" onsubmit="tempCalculate(); return false">
+            <h1>Temperature Converter</h1>
+
+            <label id="label" for="temp">Enter the value of the temperature to convert:</label><br><br>
+            <input type="number" name="temp" id="temp">
+            <select name="tempdiff" id="tempdiff">
+                <option value="cel">°Celsius</option>
+                <option value="fah">°Fahrenheit</option>
+                <option value="kel">°Kelvin</option>
+            </select><br><br>
+
+            <input type="submit" id="submit" value="Convert">
+            <input type="reset" name="RESET" id="rst">
+
+            <br><br>
+
+            <label id="label1" for="result">Result:</label><br><br>
+
+            <input type="text" readonly name="" id="resultcontainer">
+        </form>
+        <div class="links">
+            <a class="logos" href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="logos" href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="logos" href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            Copyright <i class="fa-regular fa-copyright"></i> 2023 Faiz Shaikh - All rights reserved
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

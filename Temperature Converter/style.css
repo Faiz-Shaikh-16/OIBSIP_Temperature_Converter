@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 5% 20%;
+}
+
+#tempcal {
+    background-color: #FFFF5C;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    /* margin:0% 20%; */
+}
+
+#label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#temp {
+    width: 20%;
+    margin: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: large;
+    border: solid;
+}
+
+#submit, #rst {
+    border: 0px 70px;
+    border-style: double;
+    padding: 15px 30px;
+    margin: 0 20px;
+    color: white;
+    background-color: #00008B;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+#label1 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+}
+
+#rst:hover {
+    background-color: white;
+    color: black;
+}
+
+#resultcontainer {
+    width: 40%;
+    border: solid;
+    writing-mode: horizontal-tb;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+
+}
+
+#tempdiff {
+    width: 20%;
+    margin: 8px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: medium;
+    border: solid;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.logos {
+    color: white;
+    font-size: x-large;
+    margin: 0px 10px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.logos:hover {
+    color: red;
+}
+
+.copyright {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 500;
+}
